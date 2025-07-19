@@ -1,7 +1,7 @@
 +++
 title = "Documentation Guide"
 description = "How to work with Bull Mobile documentation using Zola"
-date = 2025-07-04
+date = 2025-07-19
 authors = ["ethicnology"]
 
 [taxonomies]
@@ -21,7 +21,7 @@ Zola is a fast static site generator written in Rust. It's used to build our doc
 ## Project Structure
 
 ```
-docs/zola/
+├── old/                 # Deprecated documentation files found here and there from the previous version
 ├── config.toml          # Site configuration
 ├── content/             # Markdown content files
 │   ├── _index.md        # Homepage
@@ -109,8 +109,7 @@ network_type = "mainnet"
 ### Development Server
 
 ```bash
-cd docs/zola
-zola serve
+zola serve 
 ```
 
 This starts a local server at `http://127.0.0.1:1111`
@@ -118,7 +117,6 @@ This starts a local server at `http://127.0.0.1:1111`
 ### Build for Production
 
 ```bash
-cd docs/zola
 zola build
 ```
 
