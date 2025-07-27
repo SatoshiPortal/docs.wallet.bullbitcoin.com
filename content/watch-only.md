@@ -67,10 +67,12 @@ You can **scan or paste** a variety of key formats:
 <img src="/coldcard-q/descriptor/coldcard-q_advanced-tools.jpeg" alt="ColdCard Q Advanced Tools" style="max-width: 100%; height: auto;">
 
 ### Export Wallet
-<img src="/coldcard-q/descriptor/coldcard-q_export-wallet.jpeg" alt="ColdCard Q Export Wallet" style="max-width: 100%; height: auto;">
+
+{{ responsive(src="/coldcard-q/descriptor/coldcard-q_export-wallet.jpeg", alt="ColdCard Q Export Wallet") }}
 
 ### Descriptor
 <img src="/coldcard-q/descriptor/coldcard-q_descriptor.jpeg" alt="ColdCard Q Descriptor" style="max-width: 100%; height: auto;">
+
 
 ### Press Enter
 <img src="/coldcard-q/descriptor/coldcard-q_descriptor-1.jpeg" alt="ColdCard Q Descriptor 1" style="max-width: 100%; height: auto;">

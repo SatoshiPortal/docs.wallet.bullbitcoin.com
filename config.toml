@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/"
+base_url = "https://satoshiportal.github.io/docs.wallet.bullbitcoin.com"
 
 # The site title
 title = "BULL Documentation"
