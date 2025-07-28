@@ -24,6 +24,7 @@ You can **scan or paste** a variety of key formats:
 
 > **Note:** The following values are someone else's keys. Do not reuse them with real funds.
 
+
 - **xpub** (legacy):  
   `xpub6DJwRncrB8eNrzUq8XxgjwCZsEeWP8FeqBJbJQZ8JfuDwLdAzyjhHiHJieNuar1wjQTyihhMWtaKGE4DUd8uBgtyrNJqF5drwbNVUqb83b7`
 
@@ -42,6 +43,8 @@ You can **scan or paste** a variety of key formats:
 - **Descriptor (P2WPKH / BIP84):**  
   `wpkh([86241f88/84h/0h/0h]xpub6D8aKHkNUjVrjpVcrmsyiSuUR3PTfV2eLaV4bBhAqDGqug2yuchjzEet2GMixYWT6opmFr7WXDi1ofZBF5YMCwZuftQ8hCHaUPXNiqfJvLs/<0;1>/*)#ht0s3dna`
 
+> **Note:** 
+> -  [ColdCard Export Single Signature Descriptors](https://coldcard.com/docs/descriptor_export/#single-signature-descriptor-examples)
 
 
 
@@ -57,34 +60,3 @@ You can **scan or paste** a variety of key formats:
 <img src="/bull/watch-only/watch-only_label.png" alt="ColdCard Q Advanced Tools" style="max-width: 50%; height: auto;">
 
 
-
-
-## ColdCard Q combined descriptor
-
-> **Note:** ColdCard Documentation to [Export Single Signature Descriptors](https://coldcard.com/docs/descriptor_export/#single-signature-descriptor-examples)
-
-### Advanced/Tools
-<img src="/coldcard-q/descriptor/coldcard-q_advanced-tools.jpeg" alt="ColdCard Q Advanced Tools" style="max-width: 100%; height: auto;">
-
-### Export Wallet
-
-{{ responsive(src="/coldcard-q/descriptor/coldcard-q_export-wallet.jpeg", alt="ColdCard Q Export Wallet") }}
-
-### Descriptor
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor.jpeg" alt="ColdCard Q Descriptor" style="max-width: 100%; height: auto;">
-
-
-### Press Enter
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor-1.jpeg" alt="ColdCard Q Descriptor 1" style="max-width: 100%; height: auto;">
-
-### Press Enter
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor-2.jpeg" alt="ColdCard Q Descriptor 2" style="max-width: 100%; height: auto;">
-
-### Select Segwit (other format are supported as well)
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor-3.jpeg" alt="ColdCard Q Descriptor 3" style="max-width: 100%; height: auto;">
-
-### Press the button QR
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor-4.jpeg" alt="ColdCard Q Descriptor 4" style="max-width: 100%; height: auto;">
-
-### Scan the combined QR descriptor
-<img src="/coldcard-q/descriptor/coldcard-q_descriptor-5.jpeg" alt="ColdCard Q Descriptor 5" style="max-width: 100%; height: auto;">
