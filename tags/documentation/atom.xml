@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>BULL Documentation - documentation</title>
+    <link rel="self" type="application/atom+xml" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/documentation/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-19T00:00:00+00:00</updated>
+    <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/documentation/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Documentation Guide</title>
+        <published>2025-07-19T00:00:00+00:00</published>
+        <updated>2025-07-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            ethicnology
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/documentation/"/>
+        <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/documentation/</id>
+        
+        <content type="html" xml:base="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/documentation/">&lt;p&gt;This guide explains how to work with Bull Mobile&#x27;s documentation system built with &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-is-zola&quot;&gt;What is Zola?&lt;&#x2F;h2&gt;
+&lt;p&gt;Zola is a fast static site generator written in Rust. It&#x27;s used to build our documentation site from Markdown files.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;project-structure&quot;&gt;Project Structure&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;├── old&#x2F;                 # Deprecated documentation files found here and there from the previous version
+&lt;&#x2F;span&gt;&lt;span&gt;├── config.toml          # Site configuration
+&lt;&#x2F;span&gt;&lt;span&gt;├── content&#x2F;             # Markdown content files
+&lt;&#x2F;span&gt;&lt;span&gt;│   ├── _index.md        # Homepage
+&lt;&#x2F;span&gt;&lt;span&gt;│   ├── getting-started.md
+&lt;&#x2F;span&gt;&lt;span&gt;│   ├── security.md
+&lt;&#x2F;span&gt;&lt;span&gt;│   └── ...
+&lt;&#x2F;span&gt;&lt;span&gt;├── static&#x2F;              # Static assets (images, videos, etc.)
+&lt;&#x2F;span&gt;&lt;span&gt;│   ├── bull&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;│   └── coldcard-q&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;├── themes&#x2F;              # Zola theme (radion)
+&lt;&#x2F;span&gt;&lt;span&gt;└── templates&#x2F;           # Custom templates (if needed)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;adding-new-content&quot;&gt;Adding New Content&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;creating-a-new-page&quot;&gt;Creating a New Page&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new &lt;code&gt;.md&lt;&#x2F;code&gt; file in the &lt;code&gt;content&#x2F;&lt;&#x2F;code&gt; directory&lt;&#x2F;li&gt;
+&lt;li&gt;Add frontmatter at the top:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;title = &amp;quot;Watch-Only Wallets&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;description = &amp;quot;Descriptors, xpub, ypub, zpub…&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;date = 2025-07-04
+&lt;&#x2F;span&gt;&lt;span&gt;authors = [&amp;quot;ethicnology&amp;quot;, &amp;quot;ishi&amp;quot;]
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[taxonomies]
+&lt;&#x2F;span&gt;&lt;span&gt;categories = [&amp;quot;guides&amp;quot;]
+&lt;&#x2F;span&gt;&lt;span&gt;tags = [&amp;quot;watch only&amp;quot;, &amp;quot;ColdCard Q&amp;quot;, &amp;quot;wallet&amp;quot;]
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;toc = true
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;Your content here...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;frontmatter-options&quot;&gt;Frontmatter Options&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;title&lt;&#x2F;strong&gt;: Page title (required)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;description&lt;&#x2F;strong&gt;: Page description for SEO&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;date&lt;&#x2F;strong&gt;: Publication date&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;taxonomies&lt;&#x2F;strong&gt;: Categories and tags for organization&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;extra.toc&lt;&#x2F;strong&gt;: Enable table of contents&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;available-categories&quot;&gt;Available Categories&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;guides&lt;&#x2F;code&gt; - How-to guides and tutorials&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;security&lt;&#x2F;code&gt; - Security-related content&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;technical&lt;&#x2F;code&gt; - Technical documentation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;dev&lt;&#x2F;code&gt; - Developer documentation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;support&lt;&#x2F;code&gt; - Support and troubleshooting&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;syntax-highlighting&quot;&gt;Syntax Highlighting&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;dart&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-dart &quot;&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Dart code example
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;class &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;WalletService&lt;&#x2F;span&gt;&lt;span&gt; {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;Future&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;void&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;initializeWallet&lt;&#x2F;span&gt;&lt;span&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;async&lt;&#x2F;span&gt;&lt;span&gt; {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Your code here
+&lt;&#x2F;span&gt;&lt;span&gt;  }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;configuration-examples&quot;&gt;Configuration Examples&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[network]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;network_type &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;mainnet&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;json&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-json &quot;&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;servers&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: [
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;electrum.example.com:50002&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;  ]
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;building-and-serving&quot;&gt;Building and Serving&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;development-server&quot;&gt;Development Server&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve 
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This starts a local server at &lt;code&gt;http:&#x2F;&#x2F;127.0.0.1:1111&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;build-for-production&quot;&gt;Build for Production&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; build
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This creates a &lt;code&gt;public&#x2F;&lt;&#x2F;code&gt; directory with the built site.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;theme-features&quot;&gt;Theme Features&lt;&#x2F;h2&gt;
+&lt;p&gt;The radion theme provides:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dark&#x2F;Light Mode&lt;&#x2F;strong&gt;: Toggle in the top navigation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;&#x2F;strong&gt;: Full-text search across all content&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Categories &amp;amp; Tags&lt;&#x2F;strong&gt;: Browse content by topic&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Table of Contents&lt;&#x2F;strong&gt;: Auto-generated for pages with &lt;code&gt;toc = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code Highlighting&lt;&#x2F;strong&gt;: Syntax highlighting for code blocks&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Design&lt;&#x2F;strong&gt;: Works on mobile and desktop&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;getting-help&quot;&gt;Getting Help&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola Documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;micahkepe&#x2F;radion&quot;&gt;Radion Theme Documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Check existing content for examples&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

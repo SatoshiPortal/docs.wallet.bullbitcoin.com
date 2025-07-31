@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>BULL Documentation - danger zone</title>
+    <link rel="self" type="application/atom+xml" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/danger-zone/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-04T00:00:00+00:00</updated>
+    <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/danger-zone/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Superuser Mode</title>
+        <published>2025-07-04T00:00:00+00:00</published>
+        <updated>2025-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            ethicnology
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/superuser/"/>
+        <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/superuser/</id>
+        
+        <content type="html" xml:base="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/superuser/">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt; &lt;code&gt;Superuser&lt;&#x2F;code&gt; unlocks experimental features and settings.&lt;br &#x2F;&gt;
+These are advanced and potentially unstable &lt;strong&gt;make sure to back up your mnemonic to avoid losing funds!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;how-to-enable-superuser-mode&quot;&gt;How to Enable Superuser Mode&lt;&#x2F;h2&gt;
+&lt;p&gt;You need to &lt;strong&gt;tap 7 times&lt;&#x2F;strong&gt; on the logo to enable or disable it.&lt;&#x2F;p&gt;
+&lt;video controls style=&quot;max-width: 50%; height: auto; display: block; margin: 0 auto;&quot;&gt;
+  &lt;source src=&quot;&#x2F;bull&#x2F;enable-superuser.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  Your browser does not support the video tag.
+&lt;&#x2F;video&gt;
+</content>
+        
+    </entry>
+</feed>

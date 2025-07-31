@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Enable responsiveness on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <meta name="description" content="How to work with Bull Mobile documentation using Zola" />
+    <meta property="og:description" content="How to work with Bull Mobile documentation using Zola" />
+    <meta property="twitter:description" content="How to work with Bull Mobile documentation using Zola" />
+    
+
+    <!-- Title -->
+      
+
+    <title>
+    
+    Documentation Guide
+    
+</title>
+
+    <!-- Additional Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com&#x2F;documentation&#x2F;"
+    />
+    <meta
+      property="og:type"
+      content="article"
+    />
+    <meta property="og:title" content="Documentation Guide" />
+    <meta
+      property="og:image"
+      content="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/web-app-manifest-512x512.png"
+    />
+
+    <!-- Additional Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com&#x2F;documentation&#x2F;"
+    />
+    <meta name="twitter:title" content="Documentation Guide" />
+    <meta
+      name="twitter:image"
+      content="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/web-app-manifest-512x512.png"
+    />
+
+    <!-- Favicons -->
+    
+    <link
+      rel="icon"
+      type="image/png"
+      href="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/favicon.svg"
+    />
+    <link
+      rel="shortcut icon"
+      href="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Documentation Guide" />
+    <link
+      rel="manifest"
+      href="https:&#x2F;&#x2F;satoshiportal.github.io&#x2F;docs.wallet.bullbitcoin.com/icons/favicon/site.webmanifest"
+    />
+    
+
+    <!-- RSS Feed -->
+    
+
+    <!-- Load Styles -->
+    <link
+      rel="stylesheet"
+      href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/site.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Pass Theme Preference as Data Attribute -->
+    <script src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/js/init-theme.js"></script>
+
+    <!-- Reference return to click position script -->
+    <script defer src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/js/reference-return.js"></script>
+
+    <!-- additional scripts -->
+    
+      
+        <script defer src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/js/codeblock.js"></script>
+      
+      
+        <script src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/js/toggle-theme.js"></script>
+      
+      
+
+      
+<script type="text/javascript" src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/elasticlunr.min.js"></script>
+<script type="text/javascript" src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/js/search.js"></script>
+
+    
+  </head>
+
+  <body class="hack main container">
+    
+    
+         
+    <header class="nav-header">
+      <nav
+        itemscope
+        itemtype="http://schema.org/SiteNavigationElement"
+        class="navbar"
+      >
+        <section class="nav-links">
+          
+          <a
+            itemprop="url"
+            class=""
+            href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com"
+          >
+            <span itemprop="name">Home</span>
+          </a>
+          
+          <a
+            itemprop="url"
+            class=""
+            href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/categories"
+          >
+            <span itemprop="name">Categories</span>
+          </a>
+          
+          <a
+            itemprop="url"
+            class=""
+            href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags"
+          >
+            <span itemprop="name">Tags</span>
+          </a>
+          
+        </section>
+      </nav>
+      <aside class="user-actions-container">
+        
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          class="search-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+          />
+        </svg>
+        <input type="text" id="search" placeholder="Search..." />
+        <section class="search-results" aria-live="polite">
+          <article class="search-results__items" role="list"></article>
+        </section>
+         
+        <a id="dark-mode-toggle" href="#">
+          <img
+            src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/icons/sun.svg"
+            id="sun-icon"
+            style="filter: invert(1)"
+            alt="Light mode"
+          />
+          <img
+            src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/icons/moon.svg"
+            id="moon-icon"
+            alt="Dark mode"
+          />
+        </a>
+          
+        <a
+          href="https:&#x2F;&#x2F;github.com&#x2F;SatoshiPortal&#x2F;bullbitcoin-mobile"
+          class="feed-icon"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/icons/github.svg"
+            id="github-icon"
+            alt="GitHub"
+            class="social-icon"
+          />
+        </a>
+        
+      </aside>
+    </header>
+     
+    
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="headline">Documentation Guide</h1>
+        <data class="muted">
+    <svg class="icon i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <data>2 minute read</data>
+    <svg class="icon i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+
+    Published: 2025-07-19
+</data>
+    </header>
+
+    <article itemprop="articleBody">
+        
+            <!-- If no summary separate from content, just render content -->
+            <p>This guide explains how to work with Bull Mobile's documentation system built with <a href="https://www.getzola.org/">Zola</a>.</p>
+<h2 id="what-is-zola">What is Zola?</h2>
+<p>Zola is a fast static site generator written in Rust. It's used to build our documentation site from Markdown files.</p>
+<h2 id="project-structure">Project Structure</h2>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>├── old/                 # Deprecated documentation files found here and there from the previous version
+</span><span>├── config.toml          # Site configuration
+</span><span>├── content/             # Markdown content files
+</span><span>│   ├── _index.md        # Homepage
+</span><span>│   ├── getting-started.md
+</span><span>│   ├── security.md
+</span><span>│   └── ...
+</span><span>├── static/              # Static assets (images, videos, etc.)
+</span><span>│   ├── bull/
+</span><span>│   └── coldcard-q/
+</span><span>├── themes/              # Zola theme (radion)
+</span><span>└── templates/           # Custom templates (if needed)
+</span></code></pre>
+<h2 id="adding-new-content">Adding New Content</h2>
+<h3 id="creating-a-new-page">Creating a New Page</h3>
+<ol>
+<li>Create a new <code>.md</code> file in the <code>content/</code> directory</li>
+<li>Add frontmatter at the top:</li>
+</ol>
+<pre data-lang="markdown" style="background-color:#2b303b;color:#c0c5ce;" class="language-markdown "><code class="language-markdown" data-lang="markdown"><span>+++
+</span><span>title = &quot;Watch-Only Wallets&quot;
+</span><span>description = &quot;Descriptors, xpub, ypub, zpub…&quot;
+</span><span>date = 2025-07-04
+</span><span>authors = [&quot;ethicnology&quot;, &quot;ishi&quot;]
+</span><span>
+</span><span>[taxonomies]
+</span><span>categories = [&quot;guides&quot;]
+</span><span>tags = [&quot;watch only&quot;, &quot;ColdCard Q&quot;, &quot;wallet&quot;]
+</span><span>
+</span><span>[extra]
+</span><span>toc = true
+</span><span>+++
+</span><span>
+</span><span>Your content here...
+</span></code></pre>
+<h3 id="frontmatter-options">Frontmatter Options</h3>
+<ul>
+<li><strong>title</strong>: Page title (required)</li>
+<li><strong>description</strong>: Page description for SEO</li>
+<li><strong>date</strong>: Publication date</li>
+<li><strong>taxonomies</strong>: Categories and tags for organization</li>
+<li><strong>extra.toc</strong>: Enable table of contents</li>
+</ul>
+<h3 id="available-categories">Available Categories</h3>
+<ul>
+<li><code>guides</code> - How-to guides and tutorials</li>
+<li><code>security</code> - Security-related content</li>
+<li><code>technical</code> - Technical documentation</li>
+<li><code>dev</code> - Developer documentation</li>
+<li><code>support</code> - Support and troubleshooting</li>
+</ul>
+<h2 id="code-blocks">Code Blocks</h2>
+<h3 id="syntax-highlighting">Syntax Highlighting</h3>
+<pre data-lang="dart" style="background-color:#2b303b;color:#c0c5ce;" class="language-dart "><code class="language-dart" data-lang="dart"><span style="color:#65737e;">// Dart code example
+</span><span style="color:#b48ead;">class </span><span style="color:#ebcb8b;">WalletService</span><span> {
+</span><span>  </span><span style="color:#ebcb8b;">Future</span><span>&lt;</span><span style="color:#b48ead;">void</span><span>&gt; </span><span style="color:#8fa1b3;">initializeWallet</span><span>() </span><span style="color:#b48ead;">async</span><span> {
+</span><span>    </span><span style="color:#65737e;">// Your code here
+</span><span>  }
+</span><span>}
+</span></code></pre>
+<h3 id="configuration-examples">Configuration Examples</h3>
+<pre data-lang="toml" style="background-color:#2b303b;color:#c0c5ce;" class="language-toml "><code class="language-toml" data-lang="toml"><span>[network]
+</span><span style="color:#bf616a;">network_type </span><span>= &quot;</span><span style="color:#a3be8c;">mainnet</span><span>&quot;
+</span></code></pre>
+<pre data-lang="json" style="background-color:#2b303b;color:#c0c5ce;" class="language-json "><code class="language-json" data-lang="json"><span>{
+</span><span>  &quot;</span><span style="color:#a3be8c;">servers</span><span>&quot;: [
+</span><span>    &quot;</span><span style="color:#a3be8c;">electrum.example.com:50002</span><span>&quot;
+</span><span>  ]
+</span><span>}
+</span></code></pre>
+<h2 id="building-and-serving">Building and Serving</h2>
+<h3 id="development-server">Development Server</h3>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">zola</span><span> serve 
+</span></code></pre>
+<p>This starts a local server at <code>http://127.0.0.1:1111</code></p>
+<h3 id="build-for-production">Build for Production</h3>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">zola</span><span> build
+</span></code></pre>
+<p>This creates a <code>public/</code> directory with the built site.</p>
+<h2 id="theme-features">Theme Features</h2>
+<p>The radion theme provides:</p>
+<ul>
+<li><strong>Dark/Light Mode</strong>: Toggle in the top navigation</li>
+<li><strong>Search</strong>: Full-text search across all content</li>
+<li><strong>Categories &amp; Tags</strong>: Browse content by topic</li>
+<li><strong>Table of Contents</strong>: Auto-generated for pages with <code>toc = true</code></li>
+<li><strong>Code Highlighting</strong>: Syntax highlighting for code blocks</li>
+<li><strong>Responsive Design</strong>: Works on mobile and desktop</li>
+</ul>
+<h3 id="getting-help">Getting Help</h3>
+<ul>
+<li><a href="https://www.getzola.org/documentation/getting-started/overview/">Zola Documentation</a></li>
+<li><a href="https://github.com/micahkepe/radion">Radion Theme Documentation</a></li>
+<li>Check existing content for examples</li>
+</ul>
+
+        
+    </article>
+
+    <!-- Comment section -->
+    
+      
+    
+
+
+    <!-- Page footer -->
+    
+        <footer>
+            <hr>
+            <p>
+                
+                    Published by ethicnology
+                
+                
+                    
+                    in <a href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/categories/dev/">dev</a>
+                
+                
+                    and
+                    tagged
+                    
+                        <a href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/documentation/">documentation</a>
+                        
+                            
+                                
+                                    and
+                                
+                            
+                        
+                    
+                        <a href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/zola/">zola</a>
+                        
+                            
+                        
+                    
+                
+            </p>
+            
+            
+        </footer>
+    
+</article>
+
+
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>BULL Documentation - wallet</title>
+    <link rel="self" type="application/atom+xml" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/wallet/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-31T00:00:00+00:00</updated>
+    <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/tags/wallet/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Import Mnemonic</title>
+        <published>2025-07-31T00:00:00+00:00</published>
+        <updated>2025-07-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            ethicnology
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/import-mnemonic/"/>
+        <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/import-mnemonic/</id>
+        
+        <content type="html" xml:base="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/import-mnemonic/">&lt;h2 id=&quot;how-to-import-multiple-wallet-mnemonics&quot;&gt;How to import multiple wallet mnemonics?&lt;&#x2F;h2&gt;
+&lt;video controls style=&quot;max-width: 50%; height: auto; display: block; margin: 0 auto;&quot;&gt;
+  &lt;source src=&quot;&#x2F;bull&#x2F;import_mnemonic.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  Your browser does not support the video tag.
+&lt;&#x2F;video&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Watch-Only Wallets</title>
+        <published>2025-07-04T00:00:00+00:00</published>
+        <updated>2025-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            ethicnology
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/watch-only/"/>
+        <id>https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/watch-only/</id>
+        
+        <content type="html" xml:base="https://satoshiportal.github.io/docs.wallet.bullbitcoin.com/watch-only/">&lt;p&gt;&lt;code&gt;BULL&lt;&#x2F;code&gt; supports multiple watch-only wallet standards, including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BIP44&lt;&#x2F;strong&gt; (Legacy)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;BIP49&lt;&#x2F;strong&gt; (Nested SegWit)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;BIP84&lt;&#x2F;strong&gt; (Native SegWit)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;supported-input-formats&quot;&gt;Supported Input Formats&lt;&#x2F;h2&gt;
+&lt;p&gt;You can &lt;strong&gt;scan or paste&lt;&#x2F;strong&gt; a variety of key formats:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt; The following values are someone else&#x27;s keys. Do not reuse them with real funds.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;xpub&lt;&#x2F;strong&gt; (legacy):&lt;br &#x2F;&gt;
+&lt;code&gt;xpub6DJwRncrB8eNrzUq8XxgjwCZsEeWP8FeqBJbJQZ8JfuDwLdAzyjhHiHJieNuar1wjQTyihhMWtaKGE4DUd8uBgtyrNJqF5drwbNVUqb83b7&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ypub&lt;&#x2F;strong&gt; (nested SegWit):&lt;br &#x2F;&gt;
+&lt;code&gt;ypub6XepkBPvLjJ2P2XHVUEoYfYBUaHwg39ESnmxbs6UFHwk6rRAjanUahAm6cnmEBRytL2bvE7BZ7XpyDz9DP86yaReJNRD3KfVdCQM5YZ6LEs&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;zpub&lt;&#x2F;strong&gt; (native SegWit):&lt;br &#x2F;&gt;
+&lt;code&gt;zpub6ro6vd6Cn6apSQsrXVTE8d6UkygMYj1eAoXW9yUwbE2c1sfSQw2sEMyA4gGtxMpHv64NkoJdSYR7aEnJgUNNoQw7QZnys1vZ1qefVwPVc8T&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Descriptor (P2PKH &#x2F; BIP44):&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;pkh([86241f88&#x2F;44h&#x2F;0h&#x2F;0h]xpub6DJwRncrB8eNrzUq8XxgjwCZsEeWP8FeqBJbJQZ8JfuDwLdAzyjhHiHJieNuar1wjQTyihhMWtaKGE4DUd8uBgtyrNJqF5drwbNVUqb83b7&#x2F;&amp;lt;0;1&amp;gt;&#x2F;*)#fzh6clmf&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Descriptor (P2SH-P2WPKH &#x2F; BIP49):&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;sh(wpkh([86241f88&#x2F;49h&#x2F;0h&#x2F;0h]xpub6CpZSWj1C3kYXjLAf7TBLaSgJc9VjR9jXgFjpUCasHZs3kbwUvcuxdWd5QqBEGn4UguoAkWd6TBH5wNaVgi6BLk3S2inTQr1MULhgxnrxKW&#x2F;&amp;lt;0;1&amp;gt;&#x2F;*))#6nkjq52v&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Descriptor (P2WPKH &#x2F; BIP84):&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;code&gt;wpkh([86241f88&#x2F;84h&#x2F;0h&#x2F;0h]xpub6D8aKHkNUjVrjpVcrmsyiSuUR3PTfV2eLaV4bBhAqDGqug2yuchjzEet2GMixYWT6opmFr7WXDi1ofZBF5YMCwZuftQ8hCHaUPXNiqfJvLs&#x2F;&amp;lt;0;1&amp;gt;&#x2F;*)#ht0s3dna&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;coldcard.com&#x2F;docs&#x2F;descriptor_export&#x2F;#single-signature-descriptor-examples&quot;&gt;ColdCard Export Single Signature Descriptors&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;import-watch-only-in-bull&quot;&gt;Import Watch-Only in &lt;code&gt;BULL&lt;&#x2F;code&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;tap-the-import-button-in-the-settings&quot;&gt;Tap the import button in the settings&lt;&#x2F;h3&gt;
+&lt;img src=&quot;&#x2F;bull&#x2F;watch-only&#x2F;watch-only_settings.png&quot; alt=&quot;ColdCard Q Advanced Tools&quot; style=&quot;max-width: 50%; height: auto;&quot;&gt;
+&lt;h3 id=&quot;tap-scan-qr-or-the-paste-button-with-your-descriptor-in-clipboard&quot;&gt;Tap &lt;code&gt;Scan QR&lt;&#x2F;code&gt; or the &lt;code&gt;paste&lt;&#x2F;code&gt; button with your descriptor in clipboard&lt;&#x2F;h3&gt;
+&lt;img src=&quot;&#x2F;bull&#x2F;watch-only&#x2F;watch-only_import.png&quot; alt=&quot;ColdCard Q Advanced Tools&quot; style=&quot;max-width: 50%; height: auto;&quot;&gt;
+&lt;h3 id=&quot;review-the-details-add-an-optional-label-and-tap-import&quot;&gt;Review the details, add an optional label and tap &lt;code&gt;Import&lt;&#x2F;code&gt;&lt;&#x2F;h3&gt;
+&lt;img src=&quot;&#x2F;bull&#x2F;watch-only&#x2F;watch-only_label.png&quot; alt=&quot;ColdCard Q Advanced Tools&quot; style=&quot;max-width: 50%; height: auto;&quot;&gt;
+</content>
+        
+    </entry>
+</feed>
